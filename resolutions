@@ -18,4 +18,15 @@ $nome.="FPB";
 ?>
 
 ------------------------------------------
+<?php
+//Escreva um codigo que receba 2 valores inteiros, faca a soma deles e depois multiplique 
+//o resultado pela metade do primeiro valor.
 
+$valor1 = 10;
+$valor2 = 5;
+$soma = ($valor1 + $valor2);
+$div = ($valor1/2);
+$div2 = ($soma/$div);
+echo "O  resultado é : " , $div2 ;
+
+?>
