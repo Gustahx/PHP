@@ -26,3 +26,20 @@ echo "A parcelas são de : ", $parcelas;
 
 ?>
 ----------------------------------------
+<?php
+
+//Escreva código que receba um valor inteiro. O transforme
+//em anos e diga sua idade e informe se é ou não 
+//maior de idade.
+
+$vlr = 25000;
+$idade = $vlr/365;
+
+
+if ($idade>= 18){
+echo "É maior de idade";
+}else {
+echo  "É menor de idade";
+}
+
+?>
