@@ -1,0 +1,28 @@
+<?php
+//Escreva um código que receba um valor inteiro, 
+//calcule e mostre 15% desse valor.
+
+$valor = 100;
+echo $result = ($valor*0.15);
+
+?>
+
+-------------------------------------
+<?php
+
+//Escreva código que receba o valor de um produto comprado por um 
+//cliente, faça a divisão desse valor em 12 vezes e adicione 1% 
+// do valor em cada parcela mostre o valor das parcelas e valor total
+// que será pago.
+
+$valor = 1200;
+
+$juros = $valor*0.12;
+$valor_total = $valor + $juros;
+$parcelas = $valor_total / 12;
+echo "O valor total será : ", $valor_total."<br>";
+echo "A parcelas são de : ", $parcelas;
+
+
+?>
+----------------------------------------
